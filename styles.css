@@ -1,8 +1,33 @@
-/*
+.cm-calclue-mathmode {
+	/* Erzwingt block-level Darstellung */
+	display: block;
+	/*background-color: rgba(200, 230, 255, 0.3) !important;*/
+	border-left: 3px solid #007acc !important;
+	padding-left: 0.7em !important;
+	/* Optional: Gleiche Abstände zwischen den Zeilen, um einen einheitlichen Container zu simulieren */
+	/*line-height: 1.1;*/
+	z-index: 0;
+  }
+  
+  /* Zusätzliche Klasse für Theorem (Keyword "thm") */
+.cm-thm {
+	/* Beispielsweise eine andere Hintergrundfarbe */
+	background-color: rgba(9, 89, 45, 0.646) !important;
+	border-left: 3px solid #0f6b14 !important;
+  }
+  
+  /* Zusätzliche Klasse für Definition (Keyword "def") */
+  .cm-def {
+	background-color: rgba(235, 245, 255, 0.3) !important;
+  }
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+  .cm-line.cm-thm {
+	background-color: rgba(255, 235, 59, 0.3) !important;
+  }
 
-If your plugin does not need CSS, delete this file.
-
-*/
+  /* Marker-Stil: Dieser wird nur für die ersten drei Zeichen verwendet */
+.cm-calclue-mathmode-marker {
+	font-size: 0.8em;
+	color: #999;
+	opacity: 0.7;
+  }

@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+    "id": "calclue-plugin",
+    "name": "calclue Mathematik Nachhilfe",
+    "version": "0.0.1",
+    "minAppVersion": "0.15.0",
+    "description": "calclue Mathematik Nachhilfe offizielles Plugin",
+    "author": "Seçkin Durğun",
+    "authorUrl": "https://github.com/yourusername",
+    "isDesktopOnly": false
 }

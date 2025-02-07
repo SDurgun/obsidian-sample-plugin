@@ -92,3 +92,47 @@ If you have multiple URLs, you can also do:
 ## API Documentation
 
 See https://github.com/obsidianmd/obsidian-api
+
+# Theorem Plugin for Obsidian
+
+This plugin adds support for theorem environments in Obsidian.
+
+## Usage
+
+You can create theorem environments in two ways:
+
+### Method 1: Using code blocks
+
+```markdown
+```theorem
+Let n be a positive integer. If n is even, then n² is even.
+
+Proof: If n is even, then n = 2k for some integer k.
+Therefore, n² = (2k)² = 4k², which is even.
+```
+```
+
+### Method 2: Using callouts
+
+```markdown
+::: theorem
+Let n be a positive integer. If n is odd, then n² is odd.
+
+Proof: If n is odd, then n = 2k + 1 for some integer k.
+Therefore, n² = (2k + 1)² = 4k² + 4k + 1 = 2(2k² + 2k) + 1, which is odd.
+:::
+```
+
+## Styling
+
+Theorems will be displayed with:
+- A light gray background
+- A blue left border
+- A "Theorem" header automatically added
+- Syntax highlighting in edit mode
+
+## Tips
+
+- You can write mathematical formulas inside theorems using standard Obsidian math syntax
+- Multiple theorems can be used in the same document
+- Works in both edit and preview mode
